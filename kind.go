@@ -9,6 +9,7 @@ package ipld
 // and therefore they aren't included in the ReprKind enum.
 type ReprKind uint8
 
+// IPLD中的原始种类
 const (
 	ReprKind_Invalid ReprKind = 0
 	ReprKind_Map     ReprKind = '{'
