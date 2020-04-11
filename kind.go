@@ -23,6 +23,7 @@ const (
 	ReprKind_Link    ReprKind = '/'
 )
 
+// 转换字符串
 func (k ReprKind) String() string {
 	switch k {
 	case ReprKind_Invalid:
