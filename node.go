@@ -209,6 +209,7 @@ type NodeStyleSupportingAmend interface {
 // The order itself may be defined by the Node implementation: some
 // Nodes may retain insertion order, and some may return iterators which
 // always yield data in sorted order, for example.
+// 迭代器
 type MapIterator interface {
 	// Next returns the next key-value pair.
 	//
